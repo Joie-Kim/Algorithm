@@ -1,15 +1,20 @@
-dic = {'a':1, 'b':2, 'c':3, 'd':[1,2,3]}
+def solution(genres, plays):
+    song = {}
+    genres_total = {}
+    answer = []
 
-# sort_list = sorted(dic.items(), reverse=True, key=lambda item: item[1])
+    for g, (idx, p) in zip(genres, enumerate(plays)):
+        try: 
+            song[g].append((idx, p))
+            genres_total[g] += p
+        except:
+            song[g] = [(idx, p)]
+            genres_total[g] = p
 
-print(dic['d'])
-print(dic.items())
-print(dic.values())
-print(list(dic.values())[3][0])
+    for gp in sorted(genres_total.items(), reverse=True, key=lambda item: item[1]):
+        song[gp[0]].sort(key=lambda item: (-item[1], item[0]))
+        answer.append(song[gp[0]][0][0])
+        if len(song[gp[0]]) > 1:
+            answer.append(song[gp[0]][1][0])
 
-dic['d'].append(4)
-print(dic['d'])
-
-dic['e'] = 1
-dic['e'].append(4)
-print(dic['e'])
+    return answer
