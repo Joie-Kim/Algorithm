@@ -21,9 +21,5 @@ def solution(tickets):
                 stack.append(dic_ticket[top].pop(0))
         return path[::-1]
 
-    routes = init_graph()
-    for r in routes:
-        routes[r].sort()
-
     answer = dfs()
     return answer
