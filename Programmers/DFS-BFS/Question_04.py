@@ -7,8 +7,8 @@ def solution(tickets):
         try: dic_ticket[ticket[0]].append(ticket[1])
         except: dic_ticket[ticket[0]] = [ticket[1]]
     # 도착지 정렬
-    for key in dic_ticket.key():
-        dic_ticket[key].sort(reverse=True)
+    for idx in dic_ticket:
+        dic_ticket[idx].sort()
 
     def dfs():
         stack = ["ICN"]
