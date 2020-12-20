@@ -92,6 +92,8 @@ number에서 k 개의 수를 제거했을 때 만들 수 있는 수 중 가장 �
 
 ## Question 5
 
+> 📎 참고 링크 : [Kruskal algoritm](https://gmlwjd9405.github.io/2018/08/29/algorithm-kruskal-mst.html)
+
 ### 문제 설명
 
 n개의 섬 사이에 다리를 건설하는 비용(costs)이 주어질 때, 최소의 비용으로 모든 섬이 서로 통행 가능하도록 만들 때 필요한 최소 비용을 return 하도록 solution을 완성하세요.
