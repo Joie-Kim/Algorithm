@@ -28,3 +28,12 @@ def solution(distance, rocks, n):
             left = mid + 1                              # 기준을 높여야 함
     
     return answer
+
+"""
+if removed_rocks == n: answer = min_dt
+위 조건을 넣었을 때, 일부 테스트 케이스에서 원하는 값이 나오지 않았던 이유는
+제거된 돌의 갯수가 n보다 작은 상황에서 (removed_rocks < n)
+최소 거리(min_dt)가 정해지고 나면 최소 거리에 해당하는 두 돌 외의 어떤 돌을 삭제해도 답이 되기 때문이다.
+    > 문제에서 구하는 답은 n개의 돌을 삭제했을 때 돌 사이의 최소값들 중 최댓값을 구하는 것이다. (모든 경우의 수에 대해)
+따라서 removed_rocks <= n인 모든 경우에 대해 answer = min_dt를 해줘야 한다.
+"""
