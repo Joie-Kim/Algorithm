@@ -15,6 +15,10 @@
 
 ---
 
+### [🐤 Codility](https://github.com/Joie-Kim/Algorithm/tree/master/Codility)
+
+[Codility](https://app.codility.com/programmers/lessons/1-iterations/)에 있는 알고리즘 문제를 풀며 작성한 코드를 모아뒀습니다.
+
 ### [🐥 Leetcode](https://github.com/Joie-Kim/Algorithm/tree/master/Leetcode)
 
 [LeetCode](https://leetcode.com/problemset/all/)에 있는 알고리즘 문제를 풀며 작성한 코드를 모아뒀습니다.
