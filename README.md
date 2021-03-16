@@ -27,6 +27,10 @@
 
 [프로그래머스](https://programmers.co.kr/)에 있는 알고리즘 문제를 풀며 작성한 코드를 모아뒀습니다.
 
+### [🍳 CodeUp](https://github.com/Joie-Kim/Algorithm/tree/master/CodeUp)
+
+[코드업](https://codeup.kr/problemsetsol.php?psid=33)에 있는 알고리즘 문제를 풀며 작성한 코드를 모아뒀습니다.
+
 ### [🥚 Do_it](https://github.com/Joie-Kim/Algorithm/tree/master/Do_it)
 
 > [Do it! 자료구조와 함께 배우는 알고리즘 입문: 파이썬 편](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163031727&orderClick=LAG&Kc=)
