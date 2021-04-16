@@ -17,7 +17,6 @@
 
 ### [⚡️ Baekjoon](https://github.com/Joie-Kim/Algorithm/tree/master/Baekjoon)
 
-Javascript로 알고리즘 문제 푸는 연습을 하기 위해<br>
 [백준-단계별풀기](https://www.acmicpc.net/step)에 있는 문제를 풀며 작성한 코드를 모아뒀습니다.
 
 ### [🐤 Codility](https://github.com/Joie-Kim/Algorithm/tree/master/Codility)
